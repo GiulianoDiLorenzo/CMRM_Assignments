@@ -54,8 +54,3 @@ Separates the four canonical SATB voices (soprano, alto, tenor, bass) from a mix
 ### Results
 
 Separation quality varied substantially by chorale and voice - soprano consistently reconstructed cleanest, bass noisiest, attributed to higher pitches being better frequency-separated while lower voices' harmonics get misattributed across sources. Notably, **the numerical metrics and the listening test disagreed** on which chorales separated best (chorale 4 scored best on SDR/SIR/SAR but worse than chorales 1-2 by ear) - attributed to a timing-alignment mismatch between chorale and reference-source file lengths inflating the numerical error for chorales 3-4, a concrete example of why a single automatic metric shouldn't be trusted blindly in MIR evaluation.
-
-
-## Related topics
-
-`music-information-retrieval` `genre-classification` `source-separation` `nmf` `nonnegative-matrix-factorization` `svm` `rhythmic-features` `onset-detection` `novelty-function` `tempogram` `midi` `librosa` `scikit-learn` `python`
